@@ -85,14 +85,14 @@ nav ul li:last-child {
 
 h1 {
     color: #4b5c66;
-    font-size: 1.0em;
+    font-size: 2.0em;
     font-weight: normal;
     margin: 0 0 8px 0;
 }
 
 .name p { 
     color: #a0aab1;
-    font-size: 12px;
+    font-size: 0.8em;
 }
 
 .name p img { 
@@ -173,6 +173,7 @@ input.submit {
     font-size: 0.7em;
     color: #89949b;
     margin: 10px 0;
+    width: 100%;
 }
 
 #albums article img {
@@ -216,4 +217,38 @@ nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
 nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
 
+@media screen and (max-width: 800px){
+    .search {
+        display: none;
+    }
+}
 
+@media screen and (max-width: 500px){
+    .share{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    body {
+        font-size: 0.80rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 0.65rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        font-size: 1.30rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+    .links {
+        float:right;
+  }
+}
